@@ -22,11 +22,10 @@ Gerenciador de tarefas com o quarkus. Projeto voltado para aprendizado do framew
 
 ## ⚙️ Funcionalidades
 
-- [X] Criar tarefa
-- [X] Listar tarefas
-- [ ] Editar tarefa
-- [ ] Remover tarefa
+- [X] CRUD de tasks
 - [ ] Vincular categoria a tarefa
+- [ ] Inserir previsão de pomodoros
+- [ ] Inserir previsão de tempo a gastar
 ---
 
 ## 💻 Como executar
@@ -37,6 +36,7 @@ Gerenciador de tarefas com o quarkus. Projeto voltado para aprendizado do framew
 
 - Clone o projeto com: `git clone https://github.com/mhme2000/basic-quarkus.git`
 - Acesse o projeto, e execute o comando: `./mvnw compile quarkus:dev`
+- Logo depois abra o seu navegaor e acesse a url `http://localhost:8080/q/docs/` que vai mostrar a interface do swagger ui
 - Pronto! Agora é só se divertir!
 
 ---
